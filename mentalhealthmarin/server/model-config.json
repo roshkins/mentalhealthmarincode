@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "consumer": {
+    "dataSource": "memory",
+    "public": true
+  },
+  "provider": {
+    "dataSource": "memory",
+    "public": true
+  },
+  "comment": {
+    "dataSource": "memory",
+    "public": true
+  },
+  "url": {
+    "dataSource": "memory",
+    "public": true
+  }
+}

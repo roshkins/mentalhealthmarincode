@@ -1,0 +1,19 @@
+{
+  "name": "consumer",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "comments": {
+      "type": "hasMany",
+      "model": "comment",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

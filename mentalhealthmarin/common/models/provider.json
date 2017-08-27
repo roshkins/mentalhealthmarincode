@@ -1,0 +1,54 @@
+{
+  "name": "provider",
+  "plural": "providers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "formal_name": {
+      "type": "string",
+      "required": false
+    },
+    "common_name": {
+      "type": "string",
+      "required": false
+    },
+    "phone_number": {
+      "type": "string",
+      "required": false
+    },
+    "email_address": {
+      "type": "string",
+      "required": false
+    },
+    "address": {
+      "type": "string",
+      "required": false
+    },
+    "event_calendar": {
+      "type": "string",
+      "required": false
+    },
+    "usage_instructions": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "comments": {
+      "type": "hasMany",
+      "model": "comment",
+      "foreignKey": ""
+    },
+    "urls": {
+      "type": "hasMany",
+      "model": "url",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

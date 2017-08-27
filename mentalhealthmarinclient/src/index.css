@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Mukta+Mahee');
+body,
+html,
+div#root {
+  margin: auto;
+  border: 0;
+  padding: 0;
+  font-family: 'Mukta Mahee', sans-serif;
+  background-color: hsla(90, 60%, 90%, 1);
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      hsla(90, 60%, 90%, 0.6),
+      hsla(90, 70%, 100%, 0.4)
+    ),
+    url(./landscape.jpg);
+  background-size: cover;
+}

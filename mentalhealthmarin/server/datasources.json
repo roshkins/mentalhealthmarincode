@@ -1,0 +1,12 @@
+{
+  "sqlite": {
+    "name": "sqlite",
+    "connector": "loopback-connector-sqlite3"
+  },
+  "memory": {
+    "name": "memory",
+    "localStorage": "memMind",
+    "file": "D:\\projects\\mentalhealthmarincode\\mentalhealthmarin\\data.json",
+    "connector": "memory"
+  }
+}

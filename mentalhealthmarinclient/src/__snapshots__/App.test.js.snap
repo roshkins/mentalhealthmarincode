@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`looks the same as before 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Here is a list of places you can seek help!
+  </h1>
+  <div>
+    <h1>
+       Add your own! 
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        onChange={[Function]}
+        placeholder="common name"
+        type="text"
+        value=""
+      />
+      <br />
+      <input
+        onChange={[Function]}
+        placeholder="email address for provider"
+        type="email"
+        value=""
+      />
+      <br />
+      <input
+        onChange={[Function]}
+        placeholder="formal name"
+        type="text"
+        value=""
+      />
+      <br />
+      <textarea
+        onChange={[Function]}
+        placeholder="usage instructions"
+        value=""
+      />
+      <br />
+      <input
+        type="submit"
+        value="Add your own!"
+      />
+    </form>
+  </div>
+</div>
+`;

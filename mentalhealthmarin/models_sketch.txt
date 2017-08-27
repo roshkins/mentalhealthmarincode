@@ -1,0 +1,32 @@
+consumer
+  string username
+  string(hashed) password
+
+  has_many comments
+
+provider
+  string username
+  string(hashed) password
+  string formal_name
+  string common_name
+  string phone_number
+  string email_address
+  string address
+  string event_calendar
+  varchar(10000) usage_instructions
+
+  has_many comments
+  has_many urls
+
+comment
+  varchar(10000) comment
+
+  belongs_to consumer
+  belongs_to provider
+  belongs_to parent_comment
+  has_many child_comments
+
+url
+  string url
+
+  belongs_to provider

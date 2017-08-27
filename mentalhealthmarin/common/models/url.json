@@ -1,0 +1,25 @@
+{
+  "name": "url",
+  "plural": "urls",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "provider": {
+      "type": "belongsTo",
+      "model": "provider",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
